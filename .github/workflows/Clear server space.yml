@@ -38,7 +38,7 @@ jobs:
  
     - name: Clear server space
       id: clean
-    
+      if: always()
       run: |
         # Clean up server space
       
