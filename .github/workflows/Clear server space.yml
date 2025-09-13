@@ -46,8 +46,8 @@ jobs:
         ls /
         printf 'ls /usr -l'
         ls /usr -l
-        printf 'ls /usr/bin/git/'
-        ls /usr/bin/git/
+        printf 'ls /usr/bin/'
+        ls /usr/bin/
        
 
   
