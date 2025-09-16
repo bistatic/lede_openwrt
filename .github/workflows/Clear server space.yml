@@ -48,7 +48,7 @@ jobs:
         ls /usr -l
         printf 'ls /usr/bin -l'
         ls /usr/bin -lhtR 
-        du -h /usr/bin
+#        du -h /usr/bin
        
 
   
