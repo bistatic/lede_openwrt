@@ -35,7 +35,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
- 
+
     - name: Clear server space
       id: clean
       if: always()
@@ -47,7 +47,9 @@ jobs:
         printf 'ls /usr -l'
         ls /usr -l
         printf 'ls /usr/bin -l'
-
+        ls /usr/bin -lhtR 
+        du -h /usr/bin
+       
 
   
     - name: Check space usage
