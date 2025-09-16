@@ -46,8 +46,8 @@ jobs:
         ls /
         printf 'ls /usr -l'
         ls /usr -l
- #       printf 'ls /usr/bin -l'
- #       ls /usr/bin -lhtR 
+        # printf 'ls /usr/bin -l'
+        # ls /usr/bin -lhtR 
         du -h /
        
 
