@@ -49,7 +49,9 @@ jobs:
         # printf 'ls /usr/bin -l'
         # ls /usr/bin -lhtR
         cd /usr
-        du  /usr -lh  --max-depth=1 # | sort -nr | head -n 10
+        # du  /usr -lh  --max-depth=1 # | sort -nr | head -n 10
+        du  /usr/local -lh  --max-depth=1
+        du  /usr/share -lh  --max-depth=1
        
 
   
