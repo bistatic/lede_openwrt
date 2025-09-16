@@ -48,6 +48,7 @@ jobs:
         ls /usr -l
         printf 'ls /usr/bin -l'
         ls /usr/bin -lhtR | grep "^d"
+        du -h
        
 
   
