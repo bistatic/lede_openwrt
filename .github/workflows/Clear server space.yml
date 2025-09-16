@@ -49,7 +49,7 @@ jobs:
         # printf 'ls /usr/bin -l'
         # ls /usr/bin -lhtR
         cd /
-        du -h / | sort -nr | head -n 10
+        du  / -lh  --max-depth=1 # | sort -nr | head -n 10
        
 
   
