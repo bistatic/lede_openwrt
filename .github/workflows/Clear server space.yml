@@ -57,7 +57,7 @@ jobs:
         du  /usr/share -lh  --max-depth=1
         cd /usr/local/.ghcup
         printf "%s\n"  -------.ghcup----------
-        du  /usr/local/.ghcup -lh  --max-depth=1       
+        du  /usr/local/.ghcup/ghc -lh  --max-depth=5       
        
 
   
