@@ -49,14 +49,14 @@ jobs:
         # printf 'ls /usr/bin -l'
         # ls /usr/bin -lhtR
         cd /usr/local
-        printf '--------local--------'
+        printf "--------local--------"
         # du  /usr -lh  --max-depth=1 # | sort -nr | head -n 10
         du  /usr/local -lh  --max-depth=1
         cd /usr/share
-        printf '--------share---------'
+        printf "--------share---------"
         du  /usr/share -lh  --max-depth=1
         cd /usr/local/.ghcup
-        printf '-------.ghcup----------'
+        printf "-------.ghcup----------"
         du  /usr/local/.ghcup -lh  --max-depth=1       
        
 
